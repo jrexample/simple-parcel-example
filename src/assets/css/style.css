@@ -1,0 +1,51 @@
+:root {
+    --theme-color: #222;
+}
+
+body {
+    background: #eee;
+    margin: 0;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+header {
+    background: var(--theme-color);
+    text-align: center;
+    padding: 20px;
+}
+
+header label {
+    font-size: 32px;
+    color: white;
+}
+
+.boxes span {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    margin: 10px;
+    cursor: pointer;
+}
+
+#copyright {
+    background: var(--theme-color);
+    color: white;
+    padding: 20px;
+    text-align: center;
+    margin: 0;
+}
+
+#content {
+    min-height: 460px;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#quote {
+    box-shadow: 1px 0px 1px 1px;
+    padding: 20px;
+    margin: 20px;
+}
